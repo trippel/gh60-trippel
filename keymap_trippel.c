@@ -11,7 +11,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,  \
         TRNS,NO,  BTN2,MS_U,BTN1,WH_U,NO,  HOME,UP,  END, NO,  NO,  NO,  NO  , \
         TRNS,NO,  MS_L,MS_D,MS_R,WH_D,PGUP,LEFT,DOWN,RGHT,NO,  NO,       TRNS, \
-        TRNS,NO,  NO,  NO,  NO,  NO  ,PGDN,NO,  NO,  NO,  NO,            RSFT, \
+        TRNS,NO,  NO,  NO,  NO,  NO  ,PGDN,NO,  NO,  NO,  NO,            TRNS, \
         TRNS,TRNS,TRNS,          TRNS,                    FN0, TRNS,TRNS,TRNS),
 };
 const uint16_t PROGMEM fn_actions[] = {
